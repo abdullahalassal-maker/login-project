@@ -1,21 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطور ويب - الصفحة الرئيسية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="login-page">
-  <div class="login-container">
-    <h1>Welcome Back</h1>
-    <form id="loginForm">
-      <input type="text" id="username" placeholder="Enter Username" required>
-      <input type="password" id="password" placeholder="Enter Password" required>
-      <button type="submit">Login</button>
-    </form>
-    <p class="note">Demo Login — you can enter any name and password</p>
-  </div>
-  <script src="script.js"></script>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">مطور ويب</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="services.html">الخدمات</a></li>
+                    <li><a href="portfolio.html">الأعمال</a></li>
+                    <li><a href="contact.html">التواصل</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>مرحباً بك في موقعي</h2>
+                <p>أنا مطور ويب متخصص في إنشاء مواقع إلكترونية حديثة ومتجاوبة</p>
+                <a href="contact.html" class="btn">تواصل معي</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2>من أنا</h2>
+                <p>أنا مطور ويب ذو خبرة في تطوير مواقع إلكترونية باستخدام أحدث التقنيات. أركز على تصميم مواقع متجاوبة وسهلة الاستخدام.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 مطور ويب. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
